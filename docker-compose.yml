@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  web:
+    image: nodejs-angular-starter
+    build:
+      context: .
+      args:
+        - NODE_ENV
+    env_file:
+      - .env
+    ports:
+      - 3000:3000
+    depends_on:
+      - db
+    volumes:
+      - '~/dockers_data/web/logs:/logs'
+  db:
+    image: mongo:latest
+    env_file:
+      - .env
+    ports:
+      - 27017:27017
+    volumes:
+      - 'mongodata:/data/db'
+  proxy:
+    image: nginx:latest
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./certs:/ssl
+
+volumes:
+  mongodata:
