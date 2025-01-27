@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.7">
   <diagram name="Page-1" id="VTYZQ3nmU_APvNgn6u0N">
-    <mxGraphModel dx="2908" dy="1115" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
+    <mxGraphModel dx="1448" dy="892" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -475,6 +475,51 @@
             <mxPoint x="131" y="130" as="sourcePoint" />
             <mxPoint x="121" y="320" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8kQ3t3BOulMbd9fAXTqf-92" value="Logique" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="1754" y="76" width="345" height="694" as="geometry" />
+        </mxCell>
+        <mxCell id="8kQ3t3BOulMbd9fAXTqf-93" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="8kQ3t3BOulMbd9fAXTqf-92">
+          <mxGeometry width="416" height="485.8" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8kQ3t3BOulMbd9fAXTqf-94" value="auth" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="8kQ3t3BOulMbd9fAXTqf-92">
+          <mxGeometry x="111" y="100" width="145.62" height="53.74" as="geometry" />
+        </mxCell>
+        <mxCell id="8kQ3t3BOulMbd9fAXTqf-96" value="chat&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; font-weight: 400; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22auth%22%20style%3D%22swimlane%3BfontStyle%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BchildLayout%3DstackLayout%3Bhorizontal%3D1%3BstartSize%3D29%3BhorizontalStack%3D0%3BresizeParent%3D1%3BresizeParentMax%3D0%3BresizeLast%3D0%3Bcollapsible%3D0%3BmarginBottom%3D0%3Bhtml%3D1%3BwhiteSpace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221865%22%20y%3D%22176%22%20width%3D%22145.62%22%20height%3D%2253.74%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="8kQ3t3BOulMbd9fAXTqf-92">
+          <mxGeometry x="114" y="225" width="145.62" height="53.74" as="geometry" />
+        </mxCell>
+        <mxCell id="8kQ3t3BOulMbd9fAXTqf-95" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1764" y="116" width="1096" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="8kQ3t3BOulMbd9fAXTqf-97" value="Communication" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="2569" y="67" width="345" height="694" as="geometry" />
+        </mxCell>
+        <mxCell id="8kQ3t3BOulMbd9fAXTqf-98" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="8kQ3t3BOulMbd9fAXTqf-97">
+          <mxGeometry width="416" height="485.8" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8kQ3t3BOulMbd9fAXTqf-99" value="auth" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="8kQ3t3BOulMbd9fAXTqf-97">
+          <mxGeometry x="111" y="100" width="145.62" height="53.74" as="geometry" />
+        </mxCell>
+        <mxCell id="8kQ3t3BOulMbd9fAXTqf-100" value="chat&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; font-weight: 400; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22auth%22%20style%3D%22swimlane%3BfontStyle%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BchildLayout%3DstackLayout%3Bhorizontal%3D1%3BstartSize%3D29%3BhorizontalStack%3D0%3BresizeParent%3D1%3BresizeParentMax%3D0%3BresizeLast%3D0%3Bcollapsible%3D0%3BmarginBottom%3D0%3Bhtml%3D1%3BwhiteSpace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221865%22%20y%3D%22176%22%20width%3D%22145.62%22%20height%3D%2253.74%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="8kQ3t3BOulMbd9fAXTqf-97">
+          <mxGeometry x="114" y="225" width="145.62" height="53.74" as="geometry" />
+        </mxCell>
+        <mxCell id="8kQ3t3BOulMbd9fAXTqf-101" value="Database" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="2149" y="83" width="345" height="694" as="geometry" />
+        </mxCell>
+        <mxCell id="8kQ3t3BOulMbd9fAXTqf-102" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="8kQ3t3BOulMbd9fAXTqf-101">
+          <mxGeometry width="416" height="485.8" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8kQ3t3BOulMbd9fAXTqf-103" value="auth" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="8kQ3t3BOulMbd9fAXTqf-101">
+          <mxGeometry x="111" y="100" width="145.62" height="53.74" as="geometry" />
+        </mxCell>
+        <mxCell id="8kQ3t3BOulMbd9fAXTqf-104" value="chat&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; font-weight: 400; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22auth%22%20style%3D%22swimlane%3BfontStyle%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BchildLayout%3DstackLayout%3Bhorizontal%3D1%3BstartSize%3D29%3BhorizontalStack%3D0%3BresizeParent%3D1%3BresizeParentMax%3D0%3BresizeLast%3D0%3Bcollapsible%3D0%3BmarginBottom%3D0%3Bhtml%3D1%3BwhiteSpace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221865%22%20y%3D%22176%22%20width%3D%22145.62%22%20height%3D%2253.74%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="8kQ3t3BOulMbd9fAXTqf-101">
+          <mxGeometry x="114" y="225" width="145.62" height="53.74" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
